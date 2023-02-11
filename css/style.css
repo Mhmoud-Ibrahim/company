@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.employerData{
+    border: 2px solid yellowgreen;
+    border-radius: 7px;
+    position: relative;
+}
+.employerData span{
+    position: absolute;
+    left: 0;
+    background: green;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.row{
+    background:linear-gradient(rgb(149, 222, 149),white);
+}
+.container p{
+    position: absolute;
+    z-index: 100;
+}
+label{
+    margin-top: 25px !important;
+}
